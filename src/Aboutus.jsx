@@ -38,6 +38,8 @@ const Aboutus = () => {
         </div>
       </div>
     </section>
+
+    // 
   );
 };
 

@@ -4,6 +4,7 @@ import Header from "./Header";
 import HowitWorks from "./HowitWorks";
 import Aboutus from "./Aboutus";
 import Services from "./Services";
+import Footer from "./Footer";
 import "./index.css";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       {/* <HowitWorks />
       <Aboutus /> */}
       <Services />
+      <Footer />
     </>
   );
 };

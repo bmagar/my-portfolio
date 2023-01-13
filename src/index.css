@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -14,6 +16,7 @@
 
 html{
     font-size: 62.5%;
+    
 }
 
 a{
@@ -68,7 +71,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Main hero csss */
 .main-hero-container{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     
 }
@@ -190,6 +193,7 @@ header{
     padding: 5rem;
     background-color: var(--secondary-color);
     color: #fff;
+    margin-top: 2rem;
 }
 
 
@@ -217,9 +221,10 @@ header{
     .service-container .col-xxl-4{
         flex: 0 0 auto;
         width: 30% !important;
-        margin: 2rem; 
+        margin: 1rem; 
     }
 }
+
 @media(main-width: 1500px){
     .container,
     .container-lg,
@@ -242,17 +247,26 @@ header{
     }
 }
 
-.header-right-side picture{
+.object-fit-wrapper{
     width: 80%;
-    min-width: 80%;
-    height: auto;
+    height: 80%;
     object-fit: cover;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     object-position: center;
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
-.hero-img{
+.object-fit-bg{
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
