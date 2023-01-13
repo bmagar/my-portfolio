@@ -13,10 +13,12 @@ const Header = () => {
               fugit doloribus. Mollitia commodi ducimus culpa odit animi non
               accusantium, dolor eum assumenda?
             </p>
-            <h3>Get Early access</h3>
+            <button className="primary-btn">Let's Talk</button>
           </div>
           <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
-            <img src="./images/img-home.jpg" className="img-fluid" alt="" />
+            <picture>
+              <img src="./images/hero-img-1.png" className="hero-img" alt="" />
+            </picture>
           </div>
         </div>
       </section>
