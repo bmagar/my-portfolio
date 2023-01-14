@@ -8,10 +8,11 @@ const Header = () => {
           <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column aign-items-start">
             <h1 className="display-1">Hello, I am a Frontend Developer</h1>
             <p className="main-hero-para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-              libero perferendis et quibusdam impedit! Quas repellendus alias
-              fugit doloribus. Mollitia commodi ducimus culpa odit animi non
-              accusantium, dolor eum assumenda?
+              I am a frontend developer skilled in React JS, creating
+              interactive user interfaces and implementing complex logic. I have
+              a passion for designing seamless user experiences and staying
+              current with industry trends. Committed to writing clean,
+              maintainable code and delivering high-quality results.
             </p>
             <button className="primary-btn">Let's Talk</button>
           </div>
@@ -19,7 +20,7 @@ const Header = () => {
             <div className="object-fit-wrapper">
               <picture>
                 <img
-                  src="./images/hero-img-1.png"
+                  src="./images/final-hero-img.png"
                   className="object-fit-bg"
                   alt=""
                 />

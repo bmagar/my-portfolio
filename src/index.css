@@ -197,9 +197,7 @@ header{
 }
 
 
-.work-container-subdiv:hover{
-    background-color: var(--primary-color);
-}
+
 .work-container-subdiv  .sub-heading:hover{
     color: #fff;
 }
