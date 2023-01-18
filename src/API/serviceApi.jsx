@@ -2,7 +2,7 @@ const serviceApi = [
   {
     id: 1,
     logo: "",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi odit amet qui, temporibus quos recusandae rerum deserunt in delectus provident nesciunt consequatu",
+    info: "Process of creating visually pleasing and user-friendly mobile and web applications, including layout, color scheme, typography, and user interaction design.",
     title: "App Design",
     information: "Lorem ispum dummy text",
   },
