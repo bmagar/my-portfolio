@@ -26,21 +26,16 @@ const Navbar = () => {
               id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
                   <a className="nav-link" href="#">
                     Work
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    About
+                    Resume
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item primary-outline-btn">
                   <a className="nav-link" href="#">
                     Contact
                   </a>

@@ -2,24 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark p-3 text-light">
+    <footer className="footer-section mt-5 p-5 text-light">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-10 mx-auto">
-            <div className="row">
-              <div className="col-6 col-lg-3">
-                <h2>Home</h2>
-              </div>
-              <div className="col-6 col-lg-3">
-                <h2>Skills</h2>
-              </div>
-              <div className="col-6 col-lg-3">
-                <h2>About</h2>
-              </div>
-              <div className="col-6 col-lg-3">
-                <h2>Contact</h2>
-              </div>
-            </div>
+          <div className="col-12 col-lg-12 text-center">
+            <h2>BINOD MAGAR</h2>
+            <p className="main-hero-para text-center w-50 m-auto">
+              Growing, acquiring knowledge, and advancing gradually on a daily
+              basis.
+            </p>
+            <img src=""></img>
           </div>
         </div>
       </div>

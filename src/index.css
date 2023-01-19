@@ -66,7 +66,21 @@ h1, h2, h3, h4, h5, h6{
     width: 20rem;
     font-size: 1.8rem;
     font-weight: bold;
-    border-radius: 12px;
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+.primary-outline-btn{
+    border: 1px solid var(--primary-color);
+    padding: .8rem 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
 }
 /* Navbar css Ends */
 
@@ -332,7 +346,9 @@ header{
   font-weight: 300;
   padding: 1rem 3rem;
   border: solid 1.3px var(--primary-color);
-  border-radius: 6px;
+  border-radius: 9999px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
 }
 
 .text::after{
@@ -344,4 +360,19 @@ header{
 }
 a:hover, a:active {
   color: #fff;
+}
+
+.yellow-broder{
+    border-top: 9px solid var(--primary-color);
+}
+
+.mywork-section h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+/* Footer section */
+.footer-section{
+    background-color: var(--bgcolor);
+    color: #fff;
 }
