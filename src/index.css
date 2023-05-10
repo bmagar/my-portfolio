@@ -60,12 +60,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .primary-btn{
-    background-color: var(--primary-color) !important;
-    border: none;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
     padding: 1.2rem 2rem;
     width: 20rem;
     font-size: 1.8rem;
-    font-weight: bold;
+    font-weight: 300;
+    color: #fff;
     border-radius: 9999px;
     padding-left: calc(1em + 0.25em);
     padding-right: calc(1em + 0.25em);
@@ -97,11 +98,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .main-hero-para{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     margin: 3rem 0 5rem;
     font-weight: lighter;
-    width: 75%;
+    width: 100%;
+    line-height: 3.5rem;
 }
 
 header{

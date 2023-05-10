@@ -30,11 +30,11 @@ const Navbar = () => {
                     Work
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#">
                     Resume
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item primary-outline-btn">
                   <a className="nav-link" href="#">
                     Contact

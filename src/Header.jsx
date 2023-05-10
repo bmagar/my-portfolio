@@ -6,7 +6,9 @@ const Header = () => {
       <section className="container main-hero-container overflow-hidden">
         <div className="row">
           <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column aign-items-start">
-            <h1 className="display-1">Hello, I am a Frontend Developer</h1>
+            <span className="a">Hi, my name is</span>
+            <h1 className="display-1">Binod Magar,</h1>
+            <h1 className="display-1">I construct web-based projects.</h1>
             <p className="main-hero-para">
               I am a frontend developer skilled in React JS, creating
               interactive user interfaces and implementing complex logic. I have
@@ -18,13 +20,11 @@ const Header = () => {
           </div>
           <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
             <div className="object-fit-wrapper">
-              <picture>
-                <img
-                  src="./images/final-hero-img.png"
-                  className="object-fit-bg"
-                  alt=""
-                />
-              </picture>
+              <img
+                src="./images/final-hero-img.png"
+                className="object-fit-bg"
+                alt="main hero image"
+              />
             </div>
           </div>
         </div>
